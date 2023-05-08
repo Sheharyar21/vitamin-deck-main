@@ -1,0 +1,17 @@
+.ant-tooltip{
+}
+.ant-collapse-borderless > .ant-collapse-item > .ant-collapse-content
+{
+    margin-top: 10px !important;
+}
+.ant-tooltip{
+z-index: 1 !important;
+}
+.olap{
+    background: #fff;
+    height: 60px;
+    position: relative;
+    width: 100%;
+    z-index: 2 !important;
+    box-shadow: 0 3px 6px -4px #fff, 0 6px 16px 0 #fff, 0 9px 28px 8px #fff;
+}

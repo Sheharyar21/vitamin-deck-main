@@ -1,0 +1,98 @@
+
+.humburger-manu li a {
+    position: relative;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    border-top: 2px solid transparent;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    align-items: center;
+    font-size: 14px;
+  }
+  .humburger-manu li a:hover > .subdropdown {
+    display: list-item !important;
+    list-style-type: none;
+    /* position: absolute; */
+    /* left: 0px; */
+    /* z-index: 99; */
+    background-color: #fff;
+    /* text-align: left; */
+    width: 100%;
+    /* top: 38px; */
+  }
+  .humburger-manu li a:hover .subdropdown li a {
+    border-bottom: 1px solid #fff;
+    padding: 8px;
+    display: block;
+    font-size: 12px;
+    color: #000;
+  }
+  .humburger-manu li a:hover > .subdropdown li a:hover .second-manu {
+    display: list-item;
+    list-style-type: none;
+    /* position: absolute; */
+    /* left: 100%; */
+    background-color: #58b84c;
+    width: 130px;
+    /* top: 0; */
+  }
+  .humburger-manu li a:hover{
+    font-weight: 800;
+}
+  .subdropdown {
+    display: none;
+  }
+  .humburger-manu li a:hover > .subdropdown {
+    display: list-item !important;
+    list-style-type: none;
+    /* position: absolute; */
+    /* left: 0px; */
+    /* z-index: 99; */
+    background-color: #fff;
+    /* text-align: left; */
+    width: 100%;
+    /* top: 38px; */
+  }
+  .humburger-manu li a:hover .subdropdown li a {
+    border-bottom: 1px solid #fff;
+    padding: 8px;
+    display: block;
+    font-size: 12px;
+    color: #000;
+  }
+  .humburger-manu li a:hover > .subdropdown li a:hover .second-manu {
+    display: list-item;
+    list-style-type: none;
+    /* position: absolute; */
+    /* left: 100%; */
+    background-color: #58b84c;
+    width: 130px;
+    /* top: 0; */
+  }
+  .second-manu {
+    display: none;
+  }
+  .humburger-manu li a:hover > .subdropdown li a:hover .second-manu {
+    display: list-item;
+    list-style-type: none;
+    /* position: absolute; */
+    /* left: 100%; */
+    background-color: #58b84c;
+    width: 130px;
+    /* top: 0; */
+  }
+  .second-manu li a {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-top: 2px solid transparent;
+    color: #58b84c;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    background: white;
+  }
+  .toggle-btn{
+    transform: rotate(180deg);
+    transition: 0.4s;
+    color: var(--gray);
+}

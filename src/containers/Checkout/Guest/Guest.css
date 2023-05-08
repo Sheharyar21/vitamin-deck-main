@@ -1,0 +1,43 @@
+
+.check-btn{
+    width: 100%;
+    text-align: right;
+}
+.check-btn Button{
+    background-color: var(--primary-color);
+    border:2px solid var(--primary-color);
+    border-radius: 5px;
+}
+.check-btn Button:hover{
+    background-color: transparent;
+    border:2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+.check-btn1{
+    width: 100%;
+    text-align: right;
+}
+.check-btn1 Button{
+    background-color: var(--primary-color);
+    border:2px solid var(--primary-color);
+    border-radius: 5px;
+}
+.check-btn1 Button:hover{
+    background-color: transparent;
+    border:2px solid var(--primary-color);
+    color:var(--primary-color);
+}
+@media(max-width:500px){
+    .check-btn{
+        text-align: center;
+    }
+    .check-btn1{
+        width: 80%;
+        text-align: center;
+    }
+}
+@media(max-width:320px){
+    .check-btn1{
+        width: 68%;
+    }
+}

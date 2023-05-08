@@ -1,0 +1,216 @@
+
+.img-magnifier-container{
+    position: relative;
+}
+.det-coupon-main{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+.det-dis-coupon{
+    background-color: var(--secondary);
+    width: 22%;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    word-break: break-all;
+    padding: 15px 10px;
+    border-radius: 50%;
+}
+
+.productBrand {
+    border-left: 1px solid #e2e2e2;
+}
+.brandheading{
+    display: flex;
+}
+.brandheading h4{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.6;
+}
+.brandheading span{
+    font-size: 22px;
+    font-weight: 400;
+}
+.Product-Name{
+    color: #383D44;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.qtystr{
+    padding:0 !important;
+}
+.brand-Name{
+    font-size: 20px;
+    margin-left: 10px;
+    color: var(--primary-color) !important;
+}
+.Product-Pric{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.pdtprice{
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 5px;
+    margin-bottom: 0px;
+}
+.Product-Pric del{
+    width: 20%;
+    color: #abb8c3;
+    font-size: 18px;
+}
+.pro-option{
+    color: #4b4f58;
+    font-size: 15px;
+}
+.avil-opti{
+    color: var(--primary-color);
+    font-size: 15px;
+
+}
+.Product-Addto{
+    align-items: center;
+}
+.addtoPri{
+    background: #e2e2e2;
+    margin: 0;
+    padding: 0px 21px;
+    cursor: pointer;
+    width: 30%;
+}
+.productcard-input{
+    text-align: center;
+    border: 1px solid #cac9c9;
+    width: 40%;    
+}
+.add2cartbtn .btn-style{
+    background-color: var(--primary-color);
+    padding: 7px;
+    margin: 6px auto;
+    width: 200px;
+    color: #fff;
+    border: 2px solid transparent;
+}
+.add2cartbtn .btn-style:hover{
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    transition: 0.4s;
+}
+.productcard-input:focus{
+    outline: none;
+}
+.Product-De{
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #e2e2e2;;
+}
+.Product-De ul li {
+    list-style-type: disc;
+}
+
+
+/* ------------ Media Query 1200px -------------- */
+
+@media only screen and (max-width:1200px) {
+
+}
+
+/* ------------ Media Query 991px -------------- */
+
+@media only screen and (max-width:991px) {
+    .Product-Name {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .Product-Pric del {
+        font-size: 18px;
+    }
+    .pro-option {
+        color: #4b4f58;
+        font-size: 13px;
+    }
+    .Product-Pric h4 span{
+        font-size: 16px;
+    }
+    .Product-Pric {
+        max-width: 261px;
+    }
+    .Product-Pric del {
+        width: 40%;
+        font-size: 16px;
+    }
+    .general-content {
+        padding: 9px 0;
+    }
+    .general-content h2 {
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+    .Product-Desc h2{
+        font-size: 24px;
+    }
+    .Product-Desc ul li {
+        list-style-type: disc;
+        font-size: 14px;
+    }
+    .Product-Desc ul{
+      margin: 0px 0 6px 0px;
+    }
+    .Product-Desc p{
+        margin: 0;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /* .add2cartbtn {
+        text-align: center;
+    } */
+
+
+}
+
+/* ------------ Media Query 767px -------------- */
+
+@media only screen and (max-width:767px) {
+    .det-dis-coupon {
+    width: 18%;
+    font-size: 11px;
+    padding: 13px 5px;
+    }
+    .productBrand {
+        margin: 19px 0 0 0;
+    }
+    .productBrand {
+        border-left: none;
+    }
+    .Product-Desc{
+        padding: 0 10px;
+    }
+    .Product-De{
+        display: none;
+    }
+    .addCart-btn {
+        margin: 15px auto;
+    }
+    .Product-Addto{
+        width: 75%;
+        margin: 0 auto !important;
+        display: flex;
+    }
+    .qtymargin{
+        margin: 15px 0px;
+    }
+    .Product-Addto .btn-style{
+        width: 100%;
+    }
+}
+
+
+

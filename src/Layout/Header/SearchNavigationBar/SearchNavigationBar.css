@@ -1,0 +1,129 @@
+
+.extra-class{
+    width: 100%;
+}
+.headermain{
+    height: 180px;
+}
+.headermainCon{
+    max-width: 1296px;
+    margin: 14px auto 0;
+}
+.navmain{
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 2;
+    width: 100%;
+}
+.cartmenuData a{
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    /* width: 44%; */
+}
+
+.menu-Data li a span{
+   display: block;
+   font-size: 14px;
+   text-align: center;
+
+}
+.menu-Data li{
+    /* width: 36%; */
+    text-align: center;
+}
+.menu-Data li a label{
+    display: block;
+    color: #666;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 500;
+    margin: 0;
+}
+.MenuCall a svg{
+    color: var(--primary-color);
+    font-size: 14px;
+}
+.MenuCall a svg:active{
+    color: var(--primary-color);
+}
+
+.menu-Data li a span i{
+    font-size: 14px;
+    color: #666;
+ }
+.cartmenuData a span{
+    width: 22px;
+    height: 22px;
+    font-size: 12px;
+    background-color: var(--primary-color);
+    position: absolute;
+}
+.cart-nu{
+    font-size: 11px !important;
+    width: 16px !important;
+    height: 18px !important;
+    top: 2% !important;
+    left: 26% !important;
+}
+.cartmenuData a svg{
+    color: #666 !important;
+    height: 29px;
+    width: 25px !important;
+    margin: 14px 0 0 0;
+}
+.nav-bar{
+    align-items: center;
+}
+.hover-style{
+    cursor: pointer;
+}
+/*----------Media Query 1200px---------- */
+
+@media only screen and (max-width:1200px){
+    
+    .menu-Data li {
+        width: 33.3%;
+        text-align: center;
+    }
+    .LogIn{
+        width: 30%;
+    }
+    .menu-Data li a label {
+        font-size: 12px;
+    }
+
+}
+/*----------Media Query 991px---------- */
+
+@media only screen and (max-width:991px){
+
+    .menu-Data li {
+        width: 15%;
+        text-align: center;
+    }    
+}
+
+/*----------Media Query 767px---------- */
+
+@media only screen and (max-width:767px){
+
+    .menu-Data li a label {
+        font-size: 11px;
+    }
+    .cartmenuData a {
+        width: 16%;
+        margin: 0 auto;
+    }
+    .cartmenuData a svg {
+        height: 25px;
+        width: 21px !important;
+    }
+    .headermain{
+        height: 200px;
+    }
+}
+
+
+  

@@ -1,0 +1,109 @@
+/* 
+.formik-form{
+    text-align: center;
+    background-color: antiquewhite;
+    max-width: 768px;
+    margin: 10px auto 0;
+    padding: 10px 0;
+}
+.formik-form form{
+   max-width: 700px;
+   margin: 0 auto;
+   display: flex;
+}
+.form-input{
+    width: 40%;
+    margin-top: -13px;
+}
+.input-button{
+    margin: auto 0;
+} */
+.Contact-sec{
+    width: 39%;
+    margin: 30px auto;
+    padding: 30px 20px;
+    background-color: #bed0f8;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Contact-form input{
+    width: 100%;
+    margin: 10px auto 7px auto;
+    padding:10px 15px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.Contact-btn button{
+    font-size: 16px;
+    color: white;
+    padding: 10px 25px;
+    background-color: rgba(16, 89, 248, 0.582);
+    border-radius: 45px;
+    text-decoration: none;
+    width: 100%;
+    border: 2px solid transparent;
+}
+.Contact-form input:focus{
+   outline: none;
+}
+.Contact-form{
+    width: 48%;
+    margin: 0px auto;
+}
+.Contact-btn button:hover{
+    background-color: unset;
+    border: 2px solid rgba(16, 89, 248, 0.582);
+    transition: 0.4s;
+    color: black;
+}
+.Contact-btn{
+    width: 43%;
+    margin: 0px auto;
+}
+#colors {
+    width: 100%;
+    margin: 10px auto 25px auto;
+    padding: 10px 15px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.colors:focus{
+    outline: none;
+}
+#checkbox{
+
+    width: 25%;
+    margin: 12px auto 25px;
+    padding: 18px 52px;
+    background-color: transparent;
+    border-radius: 16px;
+    height: 20px;
+
+}
+
+.Contact-btn-reset button{
+    font-size: 16px;
+    color: white;
+    padding: 10px 25px;
+    background-color: rgb(158 86 83);
+    border-radius: 45px;
+    text-decoration: none;
+    width: 100%;
+    border: 2px solid transparent;
+}
+.Contact-btn-reset{
+    width: 44%;
+    margin: 0 auto;
+}
+.Contact-btn-reset button:hover{
+    background-color: unset;
+    border: 2px solid rgb(158 86 83);
+    transition: 0.4s;
+    color: black;
+}
+.form-submit {
+    width: 100%;
+    display: flex;
+    margin-top: 24px;
+}

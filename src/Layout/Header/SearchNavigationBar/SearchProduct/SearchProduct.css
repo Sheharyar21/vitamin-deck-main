@@ -1,0 +1,38 @@
+
+.InputData{
+    width: 100%;
+}
+.ant-select {
+    width: 100%;
+}
+.anticon svg {
+    display: inline-block;
+    margin: -5px 0 0 0;
+}
+.InputData button{
+    background-color: var(--primary-color);
+}
+.InputData button:hover{
+    background-color: var(--primary-color);
+}
+.drop-down-img{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.searchData{
+    color: black;
+}
+/* .InputData.ant-select-item-option-content{
+    white-space: wrap !important;
+} */
+
+/* ------------ Media Query 767px -------------- */
+
+@media only screen and (max-width:767px) {
+    .InputData {
+        width: 100%;
+        padding: 0px 10px;
+        margin: 12px 0 0 0;
+    }
+}

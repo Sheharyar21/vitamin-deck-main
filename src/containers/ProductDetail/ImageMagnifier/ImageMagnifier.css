@@ -1,0 +1,16 @@
+
+
+
+
+
+/* ------------ Media Query 991px -------------- */
+
+@media only screen and (max-width:991px) {
+.small-img {
+    width: 230px;
+    height: 70px;
+    margin-top: 37px;
+    position: relative;
+    left: 25px;
+}
+}

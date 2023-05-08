@@ -1,0 +1,244 @@
+.op_banner{
+    background-image: url("../../assets/images/aboutbanner.webp");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    position: relative;
+}
+.op_banner h1{
+    color: #ffffff;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+.op-overlay{
+    background-color: #462EADCC;
+    opacity: 0.5;
+    transition: 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.opintro-contt{
+    
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+.opfrst-content{
+    padding-top: 50px;
+}
+.opintro-contt p{
+    color: #747474;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 81%;
+    margin: 0 auto;
+}
+.oppolicy-main{
+    width: 1100px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.oppolicy-det{
+    padding: 30px 20px;
+    width: 30.5%;
+    margin: 0px 10px;
+    height: fit-content;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 20%);
+}
+.oppolicy-det h3{
+    font-family: "Open Sans", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+.oppolicy-det h3 a{
+    color: var(--primary-color);
+}
+.oppolicy-det span a{
+    margin-bottom: 10px;
+}
+.opfa_icn {
+    font-size: 30px;
+    color: var(--primary-color);
+}
+.oppolicy-det p{
+    color: #747474;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 1.6em;
+}
+.order-status{
+    background-color: #788CC9;
+    margin-top: 80px;
+    padding: 60px 0px;
+}
+.ordr-main{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.ordr-lft{
+    width: 50%;
+}
+.ordr-lft-contt{
+    background-color: #ffffff;
+    margin: 47px 0px 47px 40px;
+    padding: 20px 20px 20px 40px;
+    height: 355px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ordr-lft-contt2{
+    margin: 47px 40px 47px 0px;
+}
+.ordr-lft-contt h2{
+    color: var(--primary-color);
+    font-family: "Open Sans", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.ordr-lft-contt ul li{
+    color: #747474;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.ordr-rgt{
+    width: 50%;
+}
+.order-tracking{
+    background-color: #6181E1;
+    padding: 60px 0px;
+}
+.mgn-btm{
+    margin-bottom: 20px;
+}
+.pdt-lost{
+    background-color: #788CC9;
+    padding: 60px 0px;
+}
+.psnl-det li{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.promo-main{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px 0px;
+}
+.promo-main h2{
+    color: #000000;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.promo-main p{
+    color: #747474;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 1200px){
+    .opintro-contt {
+        width: 65%;
+    }
+    .oppolicy-main{
+        width: 85%;
+    }
+    .oppolicy-main {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    } 
+    .oppolicy-det {
+        padding: 30px 20px;
+        width: 40.5%;
+        height: auto;
+        margin: 20px 10px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .opintro-contt {
+        padding-top: 50px;
+        width: 80%;
+    }
+    .oppolicy-main{
+        width: 95%;
+    }
+    .op_banner h1 {
+        left: 25%;
+    }
+    .oppolicy-det {
+        width: 45%;
+        margin: 20px 10px;
+    }
+    .oppolicy-main {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    } 
+    .ordr-lft-contt {
+        padding: 10px;
+        height: 465px;
+    }
+    .promo-main {
+        padding: 70px 30px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .op_banner h1{
+        font-size: 33px;
+        top: 40%;
+        left: 30%;
+    }
+    .opintro-contt {
+        width: 90%;
+    }
+    .oppolicy-main {
+        display: block;
+    }
+    .oppolicy-det{
+        padding: 30px 20px;
+        width: 90%;
+        margin: 20px auto;
+    }
+    .ordr-main {
+        display: block;
+    }
+    .ordr-lft {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .ordr-lft-contt {
+        margin: 0px; 
+        padding: 15px;
+        height: 500px;
+    }
+    .ordr-rgt {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .promo-main {
+        padding: 70px 20px;
+    }
+}    

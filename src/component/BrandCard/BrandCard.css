@@ -1,0 +1,19 @@
+.brand-images{
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid var(--primary-color);
+    height: 200px;
+}
+.brand-pic-main{
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brand-image{
+    width:75%;
+    margin:0 auto;
+}

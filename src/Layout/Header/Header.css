@@ -1,0 +1,33 @@
+.Logo{
+    max-width: 100% !important;
+    text-align: center;
+}
+.hoverCartMessage{
+    text-align: center;
+    padding-top:7%;
+}
+.hoverCartImg{
+    height: 40%;
+    width: 40%;
+    margin-left: 25%;
+}
+.searchImg {
+    border-radius: 50%;
+    margin: 10px 20px;
+    height: 80px;
+    object-fit: contain;
+  
+}
+
+/* ------------ Media Query 767px -------------- */
+
+@media only screen and (max-width:767px) {
+    .Logo a img {
+        margin: 9px 0 0 0;
+    }
+    .Logo {
+        max-width: 35% !important;
+        text-align: center;
+    }
+}
+

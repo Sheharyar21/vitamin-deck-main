@@ -1,0 +1,183 @@
+.FooterMain{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 39px 0;
+}
+.copyRite{
+    border-top: 2px solid #717171;
+    text-align: center;
+}
+.copyRite p{
+    font-size: 16px;
+    color: #000000;
+}
+.copyRite a{
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+.copyRite a:hover{
+    color: var(--primary-color);
+}
+.UserLinks ul li{
+    line-height: 26px;
+}
+.FooterLogo{
+    width: 25%;
+}
+.ContactInfo{
+    width: 31%;
+}
+.UserLinks{
+    width: 20%;
+}
+.socialLinks{
+    width: 20%;
+}
+.ContactInfo p{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+    color: #54595f;
+    margin: 14px 0;
+}
+.FooterLogo img{
+    max-width: 229px;
+}
+.ContactInfo p a ,.UserLinks ul li a{
+    color: #54595f;
+    font-size: 13px;
+}
+.ContactInfo p span svg ,.UserLinks ul li span svg{
+    color: var(--primary-color);
+    font-weight: 900;
+    font-size: 14px;
+}
+.ContactInfo p span,.UserLinks ul li span{
+  padding: 0px 8px 0 0;
+ }
+ .ContactInfo h2,.UserLinks h2,.socialLinks h2{
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 600;
+ }
+ .ContactInfo label ,.UserLinks label,.socialLinks label{
+    border: 1px solid var(--primary-color);
+    width: 115px;
+    display: flex;
+ }
+ .socialMain{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px 7%;
+ }
+ 
+ .socialMain a{
+    font-size: 32px;
+    line-height: 35px;
+    color: var(--primary-color);
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    transition: 0.4s;
+ }
+ .socialMain a:hover{
+    background-color:var(--secondary-color) ;
+    color: #fff;
+    transition: 0.4s;
+ }
+ /* ------------ Media Query 991px -------------- */
+
+@media only screen and (max-width:991px) {
+    
+     .ContactInfo h2, .UserLinks h2,.socialLinks h2{
+        margin: 0 0 7px 0;
+    }
+}
+
+/* ------------ Media Query 767px -------------- */
+
+@media only screen and (max-width:767px) {
+    .ContactInfo h2, .UserLinks h2,.socialLinks h2{
+        margin: 0 0 8px 0;
+    }
+    .FooterMain{
+        display:block;
+    }
+    .FooterLogo{
+        width: 52%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .ContactInfo{
+        width: 80%;
+        margin: 12px auto 0;
+    }
+    .ContactInfo p {
+        display: block;
+    }
+    .ContactInfo p span, .UserLinks ul li span {
+        padding: 0px 4px 0 0;
+    }
+    .UserLinks ul li{
+        line-height: 26px;
+        border-bottom: 1px solid #e3e4e5;
+    }
+    .UserLinks{
+        width: 65%;
+        margin: 0px auto;
+    }
+    .socialLinks{
+        width: 65%;
+        margin: 0px auto;
+    }
+    .FooterMain{
+        padding: 16px 0;
+    }
+    .copyRite p{
+        font-size: 14px;
+    }
+}
+
+/* 
+.containerdata{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.footerNews p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+}
+.NewsLetterInput input{
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px;
+}
+.NewsLetterInput input:focus{
+    outline: none;
+}
+.NewsLetterInput button{
+    color: #fff;
+    background: #0458ad;
+    padding: 10px 20px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+}
+.NewsLetterIcon a{
+    width: 14%;
+}
+.NewsLetterIcon a span i{
+    color: #ffffff;
+    font-size: 23px;
+    width: 14%;
+    margin: 28px 0 0 0;
+}
+.FormikFormMain{
+    display: flex;
+} */
+
+
